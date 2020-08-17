@@ -1,0 +1,22 @@
+@import 'variables';
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap');
+
+body{
+    font-family: "Nunito",sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: $light-mode-bg;
+    background: $light-mode-bg;
+    color: $light-mode-tx;
+}
+#app {
+
+
+    text-align: center;
+}
+
+.light-dark{
+    background: $dark-mode-elements;
+    color: $dark-mode-bg-tx;
+}
